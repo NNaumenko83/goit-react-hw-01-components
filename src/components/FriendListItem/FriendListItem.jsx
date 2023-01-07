@@ -4,7 +4,6 @@ import css from 'components/FriendListItem/FriendListItem.module.css';
 function FriendsListItem(props) {
   const { avatar, name, isOnline } = props;
   const status = isOnline ? 'online' : 'offline';
-  console.log(status);
 
   return (
     <li className={css.item}>
